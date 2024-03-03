@@ -4,8 +4,7 @@
 - We assume that ACM certificate is already created, so we just use its ARN.
 - Our app requires package to be installed from example.com before startup. In order to optimize the boot process we need to prepare AMI image for the app with already pre-installed package.
 ### Basic diagram ###
-
-
+![Diagram](diagram.jpg)  
 ### Possible improvements ###
 - Configure remote backend for Terraform (S3 for example)
 - Create private subnets for the app and locate it behind AWS NAT GateWay
